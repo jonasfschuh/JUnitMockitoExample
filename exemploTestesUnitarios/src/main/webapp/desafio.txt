@@ -1,0 +1,21 @@
+1) Criar uma classe chamada "Cachorro"
+Deve possuir metodo Latir
+Deve possuir uma propriedate Boolean latiu
+
+Toda vez que latir, deve ativar "latiu" = True;
+
+2) criar uma classe de testes unitário denominada "CachorroTest"
+Criar um método de test  @Test
+Instanciar a classe "Cachorro"
+Chamar o método Latir.
+
+Comparar o resultado esperado com o resultado da classe cachorro, método Latiu.
+
+Exemplo: 
+
+ Boolean resultadoEsperado = True; // verificar se o cachorro latiu na classe
+        
+   Assert.assertEquals(resultadoEsperado, cachorro.latiu);
+
+3) Verifiar se o Junit faz os monta as figurinhas verdinhas do resultado do teste. 
+

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.exemplos.Test.CalculadoraTest" time="0.081" tests="3" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\DEV\JavaDev\exemploJUnit\exemploTestesUnitarios\target\test-classes;C:\DEV\JavaDev\exemploJUnit\exemploTestesUnitarios\target\classes;C:\Users\310173751\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\310173751\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\310173751\.m2\repository\org\mockito\mockito-core\4.7.0\mockito-core-4.7.0.jar;C:\Users\310173751\.m2\repository\net\bytebuddy\byte-buddy\1.12.13\byte-buddy-1.12.13.jar;C:\Users\310173751\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.13\byte-buddy-agent-1.12.13.jar;C:\Users\310173751\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\310173751\.m2\repository\br\com\caelum\stella\caelum-stella-core\2.1.5\caelum-stella-core-2.1.5.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="C:\DEV\Java\jdk18\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\310173751\AppData\Local\Temp\surefire2351454354227287037\surefirebooter-20230721074451997_3.jar C:\Users\310173751\AppData\Local\Temp\surefire2351454354227287037 2023-07-21T07-44-51_512-jvmRun1 surefire-20230721074451997_1tmp surefire_0-20230721074451997_2tmp"/>
+    <property name="test" value="com.exemplos.Test.CalculadoraTest"/>
+    <property name="surefire.test.class.path" value="C:\DEV\JavaDev\exemploJUnit\exemploTestesUnitarios\target\test-classes;C:\DEV\JavaDev\exemploJUnit\exemploTestesUnitarios\target\classes;C:\Users\310173751\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\310173751\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\310173751\.m2\repository\org\mockito\mockito-core\4.7.0\mockito-core-4.7.0.jar;C:\Users\310173751\.m2\repository\net\bytebuddy\byte-buddy\1.12.13\byte-buddy-1.12.13.jar;C:\Users\310173751\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.13\byte-buddy-agent-1.12.13.jar;C:\Users\310173751\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\310173751\.m2\repository\br\com\caelum\stella\caelum-stella-core\2.1.5\caelum-stella-core-2.1.5.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\310173751"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\DEV\Java\jdk18\jre"/>
+    <property name="basedir" value="C:\DEV\JavaDev\exemploJUnit\exemploTestesUnitarios"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\310173751\AppData\Local\Temp\surefire2351454354227287037\surefirebooter-20230721074451997_3.jar"/>
+    <property name="sun.boot.class.path" value="C:\DEV\Java\jdk18\jre\lib\resources.jar;C:\DEV\Java\jdk18\jre\lib\rt.jar;C:\DEV\Java\jdk18\jre\lib\sunrsasign.jar;C:\DEV\Java\jdk18\jre\lib\jsse.jar;C:\DEV\Java\jdk18\jre\lib\jce.jar;C:\DEV\Java\jdk18\jre\lib\charsets.jar;C:\DEV\Java\jdk18\jre\lib\jfr.jar;C:\DEV\Java\jdk18\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="java.net.preferIPv4Stack" value="true"/>
+    <property name="user.name" value="310173751"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\DEV\Java\jdk18\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="C:\DEV\NetBeans18\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\310173751\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\310173~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="user.dir" value="C:\DEV\JavaDev\exemploJUnit\exemploTestesUnitarios"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\DEV\Java\jdk18\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\oracle\product\10.2.0\client_1\bin;C:\Program Files\Eclipse Adoptium\jdk-8.0.362.9-hotspot\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Adaptiva\AdaptivaClient\bin\x32;C:\Program Files (x86)\Adaptiva\AdaptivaClient\bin\x64;C:\ProgramData\chocolatey\bin;C:\DEV\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Program Files\nodejs\;C:\Program Files\Microsoft VS Code\bin;C:\Users\310173751\AppData\Local\Microsoft\WindowsApps;C:\Users\310173751\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="java.ext.dirs" value="C:\DEV\Java\jdk18\jre\lib\ext;C:\windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testarResultadoSomaCalculadora" classname="com.exemplos.Test.CalculadoraTest" time="0.018">
+    <system-out><![CDATA[testarResultadoSomaCalculadora...
+Teste - resultado é: 3
+]]></system-out>
+  </testcase>
+  <testcase name="hello" classname="com.exemplos.Test.CalculadoraTest" time="0.001">
+    <system-out><![CDATA[teste classe teste
+]]></system-out>
+  </testcase>
+  <testcase name="testarResultadoErro" classname="com.exemplos.Test.CalculadoraTest" time="0.002">
+    <failure type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at com.exemplos.Test.CalculadoraTest.testarResultadoErro(CalculadoraTest.java:74)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:316)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:240)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:214)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-out><![CDATA[testarResultadoSomaCalculadora...
+Teste - resultado é: 4
+]]></system-out>
+  </testcase>
+</testsuite>

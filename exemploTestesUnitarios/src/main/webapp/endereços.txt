@@ -1,0 +1,4 @@
+https://medium.com/cwi-software/testando-seu-c%C3%B3digo-java-com-o-mockito-framework-8bea7287460a
+https://site.mockito.org/
+https://www.inf.ufsc.br/~fabiane.benitti/byebug/
+https://dev.to/daienelima/mockito-como-utilizar-de-maneira-simples-4h86

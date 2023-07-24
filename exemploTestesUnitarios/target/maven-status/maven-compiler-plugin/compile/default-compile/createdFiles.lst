@@ -1,0 +1,13 @@
+Calculadora\Calculadora.class
+UnitTest\CustomerVO.class
+UnitTest\CustomerRegister.class
+ArquivoObj\ArquivoObj.class
+UnitTest\CustomerRepository.class
+Arquivo\Arquivo.class
+Carro\Combustivel.class
+UnitTest\InvalidValueException.class
+ArquivoObj\ZipArquivo.class
+Carro\Carro.class
+Calculadora\CalculadoraTesteClasse.class
+Arquivo\Compactador.class
+UnitTest\Customer.class
